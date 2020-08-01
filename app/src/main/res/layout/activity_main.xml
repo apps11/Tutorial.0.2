@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@android:style/Widget.DeviceDefault.ScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/a"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="15dp">
+
+        <ImageView
+            android:id="@+id/topbg"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/aaaa"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/aaaa" />
+
+        <TextView
+            android:id="@+id/texthadder"
+            style="@style/textviewStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="18SOEIT11027"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/topbg" />
+
+        <TextView
+            android:id="@+id/FNAME"
+            style="@style/textviewStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="ARPIT"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/texthadder" />
+
+        <TextView
+            android:id="@+id/LNAME"
+            style="@style/textviewStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="SAVALIYA"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.157"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/FNAME" />
+
+        <TextView
+            android:id="@+id/EMAIL"
+            style="@style/textviewStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="asavaliya173@rku.ac.in"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/LNAME" />
+
+        <TextView
+            android:id="@+id/CITY"
+            style="@style/textviewStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="RAJKOT"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/EMAIL" />
+
+        <TextView
+            android:id="@+id/STATE"
+            style="@style/textviewStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="GUJARAT"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/CITY" />
+
+        <TextView
+            android:id="@+id/GENDER"
+            style="@style/textviewStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="MALE"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/STATE" />
+
+    </android.support.constraint.ConstraintLayout>
+
+</ScrollView>
+
